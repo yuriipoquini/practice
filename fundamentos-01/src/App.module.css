@@ -1,0 +1,22 @@
+.wrapper{
+    background-color: var(--gray-400);
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 1.25rem 1rem;
+    border-radius: 8px;
+    
+}
+
+.wrapper main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.mainContent{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 4rem;
+    align-items: flex-start;
+}

@@ -1,0 +1,24 @@
+:root{
+    --white: #fff;
+    --gray-100: #e1e1e1;
+    --gray-200: #cacaca;
+    --gray-400: #9d9d9d;
+    --gray-700: #444;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--gray-700);
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+    font-family: "Platypi", serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
